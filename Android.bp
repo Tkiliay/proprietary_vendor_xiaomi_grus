@@ -1799,8 +1799,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.sdm710_vendor",
-    stem: "audio.primary.sdm710",
+    name: "audio.primary.grus",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1808,7 +1807,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.sdm710.so",
+                "proprietary/vendor/lib/hw/audio.primary.grus.so",
             ],
             shared_libs: [
                 "libbase",
@@ -2064,8 +2063,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liba2dpoffload_vendor",
-    stem: "liba2dpoffload",
+    name: "liba2dpoffload_grus",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2073,7 +2071,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/liba2dpoffload.so",
+                "proprietary/vendor/lib/liba2dpoffload_grus.so",
             ],
             shared_libs: [
                 "libaudioutils",
@@ -3056,8 +3054,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libssrec_vendor",
-    stem: "libssrec",
+    name: "libssrec_grus",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3065,7 +3062,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/libssrec.so",
+                "proprietary/vendor/lib/libssrec_grus.so",
             ],
             shared_libs: [
                 "libaudioutils",
